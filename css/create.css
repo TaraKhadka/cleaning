@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/create_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg{
+    background-color: rgba(210, 210, 210, 0.9);
+}
