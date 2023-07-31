@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,27 +8,64 @@
     <link rel="stylesheet" href="../css/create.css">
     <title>Cleaning Service Sign Up page</title>
 </head>
+
 <body class="">
-    <div class="my-5  container rounded col-md-6 bg">
-        <div class="form">
-            <h2 class="text-center text-primary">Create Account</h2>
-            <hr>
-            <label class="font-10 h5 text-primary">Full Name</label>
-            <input type="text" class="form-control mb-2 ">
+    <div class="my-2  container rounded col-md-7 bg">
+        <form action="">
+            <div class="form pb-1">
+                <h2 class="text-center text-primary">Create Account</h2>
+                <hr>
+                <div class="row">
+                    <div class="col">
+                        <label class="h5 text-primary mb-0">First Name <label class="text-danger">*</label></label>
+                        <input type="text" class="form-control" placeholder="First Name">
+                    </div>
+                    <div class="col mb-1">
+                        <label class="h5 text-primary mb-0">Middle Name </label>
+                        <input type="text" class="form-control" placeholder="First Name">
+                    </div>
+                    <div class="col mb-1">
+                        <label class="h5 text-primary mb-0">Last Name<label class="text-danger">*</label></label>
+                        <input type="text" class="form-control" placeholder="Last Name">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col mb-1">
+                        <label class=" h5 text-primary mb-0">Number</label>
+                        <input type="Number" class="form-control mb-2">
 
-            <label class="font-10 h5 text-primary">Email</label>
-            <input type="email" class="form-control mb-2">
+                    </div>
+                    <div class="col mb-1">
+                        <label class=" h5 text-primary mb-0">Email</label>
+                        <input type="email" class="form-control mb-2">
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col mb-1">
+                        <label class=" h5 text-primary mb-0">Password</label>
+                        <input type="password" class="form-control mb-2">
+
+                    </div>
+                    <div class="col mb-1">
+                        <label class=" h5 text-primary mb-0">Confirm Password</label>
+                        <input type="password" class="form-control mb-2">
+
+                    </div>
+                </div>
+
+                <label class=" h5 text-primary">Address</label>
+                <input type="text" class="form-control mb-2">
+                
+                <button type="button" value="Submit" class="btn btn-lg btn-w-4 btn-primary">Submit</button>
+            </div>
             
-            <label class="font-10 h5 text-primary">Number</label>
-            <input type="Number" class="form-control mb-2">
             
-            <label class="font-10 h5 text-primary">Password</label>
-            <input type="password" class="form-control mb-2">
-            <label class="font-10 h5 text-primary">Confirm Password</label>
-            <input type="password" class="form-control mb-2">
-
-
-        </div>
+            
+            
+        </form>
+    </div>
     </div>
 </body>
+
 </html>
