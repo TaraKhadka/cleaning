@@ -24,9 +24,9 @@
         <div class="border p-1 col-sm-12 cont-wid clr mx-auto text-primary rounded font-10 font-weight-bold ">
             <h1 class="text-center">Welcome</h1>
             <hr>
-            <form>
+            <form action="../index.html" method="post" onsubmit="validate()">
                 <div class="email mb-3">
-                    <h4 class="text-left">Email Or Phone</h4>
+                    <h4 id="email" class="text-left">Email Or Phone</h4>
                     <input id="email" type="text" placeholder="email or number" class="w-100 form-control h-2">
                 </div>
 
@@ -39,7 +39,7 @@
                 </div>
 
                 <div>
-                    <input type="button" class="btn btn-primary w-100 iput form-control" value="Login">
+                    <input type="submit" class="btn btn-primary w-100 btn-grid" value="Login">
                     <h6>Don't Have An Account ? <a href="../html/create.html">Sign Up</a></h6>
                 </div>
 
@@ -51,6 +51,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
+        <script src="../js/script.js"></script>
 </body>
 
 </html>
