@@ -24,10 +24,10 @@
         <div class="border p-1 col-sm-12 cont-wid clr mx-auto text-primary rounded font-10 font-weight-bold ">
             <h1 class="text-center">Welcome</h1>
             <hr>
-            <form action="../index.html" method="post" onsubmit="validate()">
+            <form onsubmit="return validate()">
                 <div class="email mb-3">
                     <h4 id="email" class="text-left">Email Or Phone</h4>
-                    <input id="email" type="text" placeholder="email or number" class="w-100 form-control h-2">
+                    <input id="email" type="text" placeholder="email or number" class="w-100 form-control h-2" required>
                 </div>
 
                 <div class="pass mb-3 col">
@@ -35,11 +35,11 @@
                         <h4 class="w-auto inline1 float-left">Password</h4>
                         <h6 class="w-auto inline2 text-left float-right"> <a href="../html/forget.html">Forgot Password</a></h6>
                     </div>
-                    <input id="password" type="password" placeholder="**********" class="w-100  h-2 form-control">
+                    <input id="password" type="password" placeholder="**********" class="w-100  h-2 form-control" required>
                 </div>
 
                 <div>
-                    <input type="submit" class="btn btn-primary w-100 btn-grid" value="Login">
+                    <button type="submit" onclick="validate()" class="btn btn-primary w-100 btn-grid" value="Submit">Login</button>
                     <h6>Don't Have An Account ? <a href="../html/create.html">Sign Up</a></h6>
                 </div>
 
