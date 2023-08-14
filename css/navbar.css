@@ -1,0 +1,40 @@
+nav {
+    background-color: rgb(236, 246, 254);
+}
+#navbody {
+    align-items: center !important;
+}
+.nav-link {
+    transition: all 5s;
+    color: #0d6efd !important;
+    border-radius: 10px;
+}
+.nav-link:hover {
+    background-color: #0d6efd;
+    color: white !important;
+    transition: all 0.3s;
+}
+#login {
+    color: #0d6efd;
+    font-weight: 600;
+}
+
+#signup {
+    background-color: #0d6efd;
+    color: white;
+    font-weight: 600;
+}
+#login:hover {
+    background-color: #0d6efd;
+    color: White;
+    font-weight: 600;
+    transition: 0.2s;
+}
+#signup:hover {
+    color: #0d6efd;
+    transition: all 0.2s;
+    background-color: white;
+}
+#log{
+    align-items: center!important;
+}
