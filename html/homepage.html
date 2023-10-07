@@ -5,27 +5,190 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>homepage</title>
+    <link rel="stylesheet" href="../css/navbar.css">
     <link rel="stylesheet" href="../css/homepage.css">
     <link rel="stylesheet" href="../css/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_css_bootstrap.min.css">
     <script src="../js/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_js_bootstrap.bundle.min.js"></script>
+
 </head>
 
-<body id="body" class="overflow-auto">
-    
-    <div class="container  border-primary ">
-        <div class="d-flex row">
+<body id="body" class="overflow-auto container ">
+    <!-- display first -->
+    <div id="home" class="container  border-primary mb-3  border-bottom">
+        <div class=" d-flex row">
             <div class="d-flex-column my-auto align-item-center text-align-center col-sm-7 ">
-                <div class="">
-                    <h3 class="d-flex my-3 align-item-top">professional <label class="text-primary">Cleaning</label></h3>
-                    <h2 class="my-3 text-primary d-flex align-item-center">Service For Your Home and Office</h2>
-                    <p class="text-justify">OT cleaning service is among those companies that not only work but also satisfies their customers with cleaning service. An experience of 12 years with a quality has already standardized our industry along with the customer’s comfort in our reliable cleaning.</p>
+                <div class="contents">
+                    <h2 class="d-flex my-3 align-item-top">Professional <i class="text-primary">
+                            Cleaning</i></h2>
+                    <h1 class="my-3 text-primary d-flex align-item-center">Service For Your Home<br> & Office</h1>
+                    <div class="morphing fs-1 mb-3">
+                        <div class="word">Green Cleaning</div>
+                        <div class="word">Residential Cleaning</div>
+                        <div class="word">Outdoor Cleaning</div>
+                        <div class="word">Special Task</div>
+                    </div>
+
+                    <p class="text-justify">OT cleaning service is among those companies that not only work but also
+                        satisfies their customers with cleaning service. An experience of many years with a quality has
+                        already standardized our industry along with the customer’s comfort in our reliable cleaning.
+                    </p>
                 </div>
             </div>
-            <div class="col-12 col-sm-5">
-                <img src="../img/CleanMan.png" alt="CleanMan" class="w-100">
+            <div class="col-12 col-sm-5 hide">
+                <img id="img" src="../img/CleanMan.png" alt="CleanMan" class="w-100">
             </div>
         </div>
     </div>
+    <!-- services -->
+    <div id="services" class="container pt-3 my-5">
+        <h4 class="text-center mb-3 mt-5">Our Services</h4>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img class="card-img-top" src="../img/sofa-dry-cleaning-service-1000x1000.png" alt="house cleaning">
+
+                    <div class="card-body">
+                        <h4>Sofa Cleaning</h4>
+                        <p class="card-text">Have you been using your sofa for a long time? Don’t worry! There is no
+                            need to replace it.[....]</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">View More</button>
+                            </div>
+                            <small class="text-body-secondary">9 Sep</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img class="card-img-top" src="../img/House cleaning.jpg" alt="house cleaning">
+
+                    <div class="card-body">
+                        <h4>House Cleaning</h4>
+
+                        <p class="card-text">You spend most of your time at home and your home represents your
+                            lifestyle. The best you can[....]</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">View More</button>
+                            </div>
+                            <small class="text-body-secondary">9 Aug</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img class="card-img-top" src="../img/vehicle cleaning.jpg" alt="house cleaning">
+                    <div class="card-body">
+                        <h4>Vehicle Cleaning</h4>
+
+                        <p class="card-text">We are not just a simple car washing service, we also offer a variety of
+                            high-quality services for our [....] </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">View More</button>
+                            </div>
+                            <small class="text-body-secondary">9 Jul</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img class="card-img-top" src="../img/watertankclean.jpg" alt="house cleaning">
+
+                    <div class="card-body">
+                        <h4>Water Tank Cleaning</h4>
+                        <p class="card-text">To maintain water hygiene, water-storing tanks should be cleaned in a
+                            regular interval. It is important to maintain the [....]</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">View More</button>
+                            </div>
+                            <small class="text-body-secondary">9 Sep</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img class="card-img-top" src="../img/carpet-cleaning-27351-sstock.jpg" alt="house cleaning">
+
+                    <div class="card-body">
+                        <h4>Carpet Cleaning</h4>
+
+                        <p class="card-text">OT Cleaning offers state of the art commercial and residential carpet
+                            cleaning services. Our best [....]</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">View More</button>
+                            </div>
+                            <small class="text-body-secondary">9 Aug</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img class="card-img-top" src="../img/Outdoor Class cleaning.jpg" alt="house cleaning">
+                    <div class="card-body">
+                        <h4>Outdoor Window and glass Cleaning</h4>
+
+                        <p class="card-text">Why do you need outdoor window and glass cleaning services? [....]</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">View More</button>
+                            </div>
+                            <small class="text-body-secondary">9 Jul</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About Us -->
+    <div id="about" class="container">
+        <h3 class="my-5 text-center">About Us</h3>
+        <h5>Welcome to Cleaning Service Booking System Your Trusted Cleaning Partner</h5>
+        <p>At Cleaning Service booking system, we take immense pride in being a leading cleaning company with over a decade of experience in providing top-notch cleaning services across Nepal. Our journey began with a vision to create cleaner, healthier, and more hygienic living and working spaces for everyone. Over the years, we have grown and evolved, becoming a trusted name synonymous with excellence, reliability, and professionalism in the cleaning industry.
+        </p>
+
+        <h5>A Decade of Excellence
+
+        </h5>
+        <p>With a legacy spanning 10 years, our commitment to delivering exceptional cleaning solutions has only grown stronger. Our extensive experience has allowed us to refine our techniques, tailor our services to meet diverse client needs, and continuously raise the bar for cleaning standards.
+
+
+        </p>
+        <h5>Diverse Expertise
+
+        </h5>
+        <p>Cleaning service booking system has had the privilege of working with a diverse clientele, including apartments, houses, offices, and even governmental bodies. Our versatility in serving both residential and commercial sectors has honed our skills to deliver unparalleled cleaning results, transforming spaces into pristine environments that promote well-being and productivity.
+
+
+        </p>
+        <h5>Our Mission
+
+        </h5>
+        <p>Our mission is simple yet powerful: to enhance the quality of life for individuals and communities by providing exceptional cleaning services. We are driven by the belief that a clean environment fosters health, happiness, and prosperity. By meticulously cleaning and maintaining spaces, we contribute to a better tomorrow.
+
+
+        </p>
+        <h5></h5>
+        <p>
+        </p>
+        <h5></h5>
+        <p>
+        </p>
+    </div>
+    <!-- contact -->
+    <div class="container">
+        <h3 id="contact" class="text-center my-5">Contact Us</h3>
+    </div>
+
+    <script src="../js/script.js"></script>
 </body>
 
 </html>
